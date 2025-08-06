@@ -4687,3 +4687,53 @@ input, select, textarea {
 		}
 
 	}
+	/* Fix address alignment in footer */
+#footer > section.split.contact > section.alt {
+	align-items: center !important;
+	padding: 1rem 4rem !important;
+}
+
+/* Make all labels same width */
+#footer > section.split.contact > section h3 {
+	width: 120px;
+	margin: 0;
+	flex-shrink: 0;
+	text-transform: uppercase;
+}
+
+/* Ensure spacing is clean */
+#footer > section.split.contact > section {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+	padding: 1rem 4rem;
+}
+
+#footer > section.split.contact > section p,
+#footer > section.split.contact > section ul {
+	margin: 0;
+	padding: 0;
+}
+
+/* SOCIAL: align label and icons horizontally */
+#footer > section.split.contact > section:last-child {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem 4rem !important;
+}
+
+/* Ensure social icons align inline */
+#footer > section.split.contact > section:last-child ul.icons {
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+/* Consistent label width */
+#footer > section.split.contact > section:last-child h3 {
+    width: 120px;
+    margin: 0;
+    flex-shrink: 0;
+    text-transform: uppercase;
